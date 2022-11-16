@@ -4,6 +4,8 @@ import Home from "./containers/Home/Home";
 import Social from "./components/Social/Social";
 import About from "./containers/About/About";
 import Skils from "./containers/Skills/Skills";
+import Experience from "./containers/Experience/Experience";
+import Contact from "./containers/Contact/Contact";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Home />
       <About />
       <Skils />
+      <Experience />
+      <Contact />
       <Social />
     </div>
   );

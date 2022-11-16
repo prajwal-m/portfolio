@@ -25,7 +25,7 @@ const Navbar = () => {
             Skills
           </a>
           <a href="#projects" className="header-link">
-            Projects
+            Experience
           </a>
           <a href="#contact" className="header-link">
             Contact
