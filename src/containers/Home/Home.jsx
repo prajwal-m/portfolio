@@ -3,7 +3,7 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <section className="home-hero">
+    <section className="home-hero" id="home">
       <div className="home-hero-content">
         <h1 className="heading-primary ">
           Hi, I'm <span className="typing-demo">Prajwal</span>

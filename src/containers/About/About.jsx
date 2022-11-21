@@ -3,7 +3,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <section className="about-section-wrapper">
+    <section className="about-section-wrapper" id="about">
       <div className="main-container">
         <div className="about-header-container">
           <h2 className="about-header">About Me</h2>
@@ -24,6 +24,14 @@ const About = () => {
               JavaScript applications and has exceptional knowledge of React.
               Currently exploring React Native.
             </p>
+            <div class="btn-container">
+              <a href="#test" target="_blank" class="main-btn">
+                <span class="btn-text">Resume</span>
+                <span class="btn-icon">
+                  <i class="fa-solid fa-download"></i>
+                </span>
+              </a>
+            </div>
           </div>
           <div className="about-card-wrapper">
             <div className="about-card">

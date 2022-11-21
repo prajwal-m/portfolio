@@ -29,7 +29,7 @@ const Skils = () => {
   }, [skillList]);
 
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="skills">
       <div className="skills-container">
         <div className="skills-header-container">
           <h2 className="skills-header">Skills</h2>

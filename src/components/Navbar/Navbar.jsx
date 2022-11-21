@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="header-logo-container">
           <div className="header-image">
             <img
-              src="https://user-images.githubusercontent.com/46987044/199079943-83811fcc-81ee-4f33-bb57-74c549181d71.png"
+              src="https://user-images.githubusercontent.com/46987044/203060204-4906a46a-3ac6-4ce5-991b-4d0043678eb4.png"
               alt="logo icon"
             />
           </div>
@@ -24,11 +24,11 @@ const Navbar = () => {
           <a href="#skills" className="header-link">
             Skills
           </a>
-          <a href="#projects" className="header-link">
+          <a href="#experience" className="header-link">
             Experience
           </a>
-          <a href="#contact" className="header-link">
-            Contact
+          <a href="#projects" className="header-link">
+            Projects
           </a>
         </nav>
       </div>

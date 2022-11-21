@@ -5,7 +5,7 @@ import Social from "./components/Social/Social";
 import About from "./containers/About/About";
 import Skils from "./containers/Skills/Skills";
 import Experience from "./containers/Experience/Experience";
-import Contact from "./containers/Contact/Contact";
+import Project from "./containers/Project/Project";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <About />
       <Skils />
       <Experience />
-      <Contact />
+      <Project />
       <Social />
     </div>
   );
