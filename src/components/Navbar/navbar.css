@@ -64,3 +64,9 @@ img {
 .header-link:hover {
   color: #facf0f;
 }
+
+@media only screen and (max-width: 600px) {
+  .header-nav {
+    display: none;
+  }
+}
