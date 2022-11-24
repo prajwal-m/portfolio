@@ -1,5 +1,5 @@
 .skills-section {
-  padding: 12rem 0;
+  padding: 12rem 6rem;
 }
 
 /* .skills-header-container {
@@ -44,7 +44,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10rem;
-  margin: 7rem;
   justify-content: center;
   align-items: center;
 }
@@ -56,5 +55,9 @@
 @media only screen and (max-width: 600px) {
   .skills-content-container {
     grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+  .skills-section {
+    padding: 8rem 3rem;
   }
 }

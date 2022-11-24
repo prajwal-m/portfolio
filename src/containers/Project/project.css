@@ -1,5 +1,5 @@
 .project-section {
-  padding: 12rem 0;
+  padding: 12rem 6rem;
 }
 
 .project-info-container {
@@ -53,5 +53,11 @@
 @media only screen and (max-width: 600px) {
   .project-info-container {
     grid-template-columns: 1fr;
+  }
+  .project-section {
+    padding: 8rem 3rem;
+  }
+  .project-image {
+    width: 100%;
   }
 }

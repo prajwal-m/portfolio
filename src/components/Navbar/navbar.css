@@ -65,8 +65,56 @@ img {
   color: #facf0f;
 }
 
+/* hamburger menu styles */
+.menu-btn {
+  cursor: pointer;
+  margin-right: 2rem;
+  display: none;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.menu-btn i {
+  font-size: 2rem;
+}
+
+.mobile-menu-items {
+  display: none;
+}
+
+.menu-open {
+  display: block;
+}
+
+#myLinks a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+#myLinks a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .header-nav {
     display: none;
+  }
+  .header-content {
+    padding: 1rem;
+  }
+  .menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

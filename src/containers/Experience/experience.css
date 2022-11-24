@@ -1,5 +1,5 @@
 .experience-section {
-  padding: 12rem 0;
+  padding: 12rem 6rem;
   background: #fafafa;
 }
 
@@ -8,7 +8,6 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   row-gap: 3rem;
-  margin: 7rem;
   padding: 0 6rem;
   text-align: start;
 }
@@ -72,9 +71,9 @@
 @media only screen and (max-width: 600px) {
   .timeline {
     grid-template-columns: 1fr;
+    padding: 1rem;
   }
   .experience-section {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8rem 3rem;
   }
 }

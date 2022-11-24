@@ -1,7 +1,23 @@
 import React from "react";
+import { useState } from "react";
 import "./navbar.css";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsmenuOpen] = useState(false);
+
+  const menuBtnClickHandler = () => {
+    const menuItems = document.getElementById("myLinks");
+    console.log(menuItems);
+    setIsmenuOpen((prevValue) => !prevValue);
+  };
+
+  const toggleMenuBar = () => {
+    setIsmenuOpen((prevValue) => !prevValue);
+  };
+
+  const getMenuClassNames = () =>
+    `mobile-menu-items ${isMenuOpen ? "menu-open" : ""}`;
+
   return (
     <header className="portfolio-header">
       <div className="header-content">
@@ -14,6 +30,10 @@ const Navbar = () => {
           </div>
           <p className="header-title">Prajwal</p>
         </div>
+        <button className="menu-btn" onClick={menuBtnClickHandler}>
+          <i className="fa fa-bars"></i>
+        </button>
+
         <nav className="header-nav">
           <a href="#home" className="header-link">
             Home
@@ -31,6 +51,23 @@ const Navbar = () => {
             Projects
           </a>
         </nav>
+      </div>
+      <div id="myLinks" className={getMenuClassNames()}>
+        <a href="#home" className="header-link" onClick={toggleMenuBar}>
+          Home
+        </a>
+        <a href="#about" className="header-link" onClick={toggleMenuBar}>
+          About
+        </a>
+        <a href="#skills" className="header-link" onClick={toggleMenuBar}>
+          Skills
+        </a>
+        <a href="#experience" className="header-link" onClick={toggleMenuBar}>
+          Experience
+        </a>
+        <a href="#projects" className="header-link" onClick={toggleMenuBar}>
+          Projects
+        </a>
       </div>
     </header>
   );
