@@ -23,7 +23,11 @@ const Project = () => {
                 Portfolio website built using React.js
               </p>
               <div className="project-repo-link">
-                <a href="#test">
+                <a
+                  href="https://github.com/prajwal-m/portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -41,7 +45,7 @@ const Project = () => {
                 A number Guessing game built using React Native.
               </p>
               <div className="project-repo-link">
-                <a href="#test">
+                <a href="#test" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -61,7 +65,7 @@ const Project = () => {
                 Native.
               </p>
               <div className="project-repo-link">
-                <a href="#test">
+                <a href="#test" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>

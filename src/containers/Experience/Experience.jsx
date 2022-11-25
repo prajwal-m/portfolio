@@ -24,6 +24,10 @@ const Experience = () => {
               brand) for both desktop and mobile. Complex animations and
               innovative design resulted in +88% time on site, +111% Session
               duration, -59% bounce rate.
+              <br />
+              Worked on building a design system for Mayo clinic using stencil
+              where the components can be used in projects with multiple
+              frameworks such as React, Angular and Vue.
             </p>
           </div>
           <div class="timeline-item">
@@ -35,10 +39,17 @@ const Experience = () => {
               Associate Software Engineer <span>- Y Media Labs</span>
             </h5>
             <p>
-              Worked on developing payment widgets for client called BillGo.
-              Experienced in setting up design systems using Storybook.
-              Experienced in writing unit test cases using Jest and Test Driven
-              Development.
+              Worked on MEP project, a program to have information of companies
+              and construction projects in one place for contractors and MEP
+              users.worked on a filter feature with complex selection logic
+              filtering out the construction projects based on multiple
+              criteria.
+              <br />
+              Worked on an internal project integrating a directory of all
+              employees along with a messenger feature which could be used for
+              direct communication between employees or by creating groups.
+              <br />
+              Worked on revamping the company website.
             </p>
           </div>
           <div class="timeline-item">
@@ -50,10 +61,8 @@ const Experience = () => {
               Web Developer Intern <span>- Amiti Software technologies</span>
             </h5>
             <p>
-              Created a playlist-like feature for the product called Experty,
-              where users can share useful links and add them to a particular
-              objective bundle(playlist). Developed pages to show the list of
-              objective bundles and content inside an objective bundle.
+              Created a dashboard where teachers can upload content or study
+              material which can be consumed by students using React.js.
             </p>
           </div>
           <div class="timeline-item">
