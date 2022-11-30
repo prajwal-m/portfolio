@@ -45,7 +45,11 @@ const Project = () => {
                 A number Guessing game built using React Native.
               </p>
               <div className="project-repo-link">
-                <a href="#test" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/prajwal-m/guessing-game-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -65,7 +69,11 @@ const Project = () => {
                 Native.
               </p>
               <div className="project-repo-link">
-                <a href="#test" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/prajwal-m/recipe-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>

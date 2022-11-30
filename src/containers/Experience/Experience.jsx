@@ -25,9 +25,9 @@ const Experience = () => {
               innovative design resulted in +88% time on site, +111% Session
               duration, -59% bounce rate.
               <br />
-              Worked on building a design system for Mayo clinic using stencil
-              where the components can be used in projects with multiple
-              frameworks such as React, Angular and Vue.
+              Developed a completely accessible design system for Mayo clinic
+              using stencil where the components can be used in projects with
+              multiple frameworks such as React, Angular and Vue.
             </p>
           </div>
           <div class="timeline-item">
